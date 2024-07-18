@@ -1,0 +1,10 @@
+{
+    "builds":[
+        { "src":"src/Components/**/*", "use":"@versel/node"}
+    ],
+    "routes":[
+        {
+            "src": "/(.*)","dest": "/index.html"
+        }
+    ]
+}
